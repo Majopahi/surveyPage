@@ -1,0 +1,72 @@
+h1 {
+  text-align: center;
+  padding: 5px 0px 5px 0px;
+  margin: 20px 0px 0px;
+}
+
+.description {
+  color: #010101;
+  text-align: center;
+}
+
+body {
+  margin: 10px auto;
+  font-family: "Merriweather", serif;
+  text-align: left;
+  color: #FFFFFF;
+  background-color: #7B7F8B;
+}
+.header {
+  padding: 20px;
+}
+
+#surveyPage {
+  margin: 10px auto;
+  max-width: 50em;
+  height: auto;
+  background-image: url(https://i2.wp.com/www.shawnthebaptist.org/images/2019/02/BridgeOfDeath.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  border: 5px solid whitesmoke;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration:none;
+  color: inherit;
+}
+
+#name-label, #name, #dropdown-label, #dropdown, #email-label, #email, #number-label, #number, #checkbox-label, #radio-label, #text-label, #textArea{
+  display: block;
+  padding: 5px;
+}
+
+#lancelot, #robin, #notAppearingInThisSurvey, #africanOrEuropean, #dontKnow {
+  padding: 0px 20px;
+}
+
+#surveyPageSweden {
+  margin: 10px auto;
+  max-width: 50em;
+  height: auto;
+  background: rgb(215, 200, 0);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  border: 5px solid #000000;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+#Swedish {
+  margin: 10px auto;
+  font-family: 'Permanent Marker', cursive;
+  text-align: left;
+  color: rgb(0, 0, 0);
+  background-color: rgb(170, 0, 0);
+}
+

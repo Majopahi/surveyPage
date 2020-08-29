@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--http://www.w3.org/TR/html-markup/global-attributes.html -->
+
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8"> 
+    <title>Survey Page</title>
+    <meta name="Survey Page" content="surveyPage">
+    <meta name="Matthew Hicks" content="surveyPage">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="https://icons-for-free.com/iconfiles/png/512/cup-131982518777795512.png">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="surveyPage">
+        <header class="header">
+            <h1 id="title"><a href="swedish.html">Monty Python's Flying Survey Page</a></h1>
+            <p id="description">For ye to cross the Bridge of <s>Death</s> Fate, ye must answer me these questions eight:</p>
+        </header>
+        <form id="survey-form" action="#">
+            <label for="name" id="name-label">What is your name?</label>
+            <input id="name" type="text" required placeholder="King Arthur of Camelot!">
+            <label id="dropdown-label">What is your quest?</label>
+            <select name="quests" id="dropdown">
+                <option value="grail">I seek the Holy Grail!</option>
+                <option value="shrub">I am looking for a shrubbery!</option>
+                <option value="glory">To bring glory to Camelot!</option>
+                <option value="nuts">I'm looking for some coconuts...</option>
+            </select>
+            <label for="email" id="email-label">What is your e-mail address?</label>
+            <input id="email" type="email" required placeholder="arthur.king@camelot.com">
+            <label for="number" id="number-label">What is the number that thou shalt count to before thou lobbest thy Holy Hand Grenade?</label>
+            <input id="number" type="number" min="1" max="5" style="width: 75px;" required placeholder="5, no, 3!">
+            <label id="checkbox-label">Which great knights dost thou take upon your quest?</label>
+            <label for="lancelot">
+                <input type="checkbox" id="lancelot" value="lancelot" name="knights" checked>Sir Lancelot
+            </label>
+            <label for="robin">
+                <input type="checkbox" id="robin" value="robin" name="knights">Sir Robin
+            </label>
+            <label for="notAppearingInThisSurvey">
+                <input type="checkbox" id="notAppearingInThisSurvey" value="notAppearingInThisSurvey" name="knights">Sir Not-Appearing-In-This-Survey
+            </label>
+            <label for="africanOrEuropean" id="radio-label">What is the airspeed velocity of an unladen swallow?
+                <input type="radio" id="africanOrEuropean" value="africanOrEuropean" name="airspeed-velocity">African or European?
+            </label>
+            <label for="dontKnow">
+                <input type="radio" id="dontKnow" value="dontKnow" name="airspeed-velocity">I don't know that!
+            </label>
+            <label for="textArea" id="text-label">What did you think of the survey?
+                <textarea id="textArea" name="comments" rows="4" cols="50"></textarea>
+            </label>
+            <button id="submit" type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
