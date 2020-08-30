@@ -52,11 +52,11 @@ a {
 
 input[type="radio"]{
   margin: 0 10px 0 20px;
-}
+  }
 
 input[type="checkbox"]{
   margin: 0 10px 0 20px;
-}
+  }
 
 textarea {
   margin: 10px auto;
